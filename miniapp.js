@@ -31,4 +31,4 @@ app.listen(PORT, function () {
 
 // 3) Добавить на сервер числа в масив. Добавлять только те, которых нет (POST)
 
-console.log("Hello World");
+console.log("=============");
