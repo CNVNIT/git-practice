@@ -54,6 +54,11 @@ app.post("/group", function (req, res) {
 
 // do not touch  :)   -- ===  S T A R T  === ---
 
+app.get("/", function (req, res) {
+  res.send(" t e s t ");
+});
+
 app.listen(2000, function () {
   console.log("Example app listening on port 2000!");
 });
+
